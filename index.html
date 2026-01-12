@@ -1,11 +1,60 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Email verificado</title>
-</head>
-<body>
-  <h1>¡Email verificado! ✅</h1>
-  <p>Ahora puedes volver a tu app e iniciar sesión con tu cuenta.</p>
-</body>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Email verificado - navIA</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background: #0b1727;
+        color: #f9fafb;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+      .card {
+        background: #111827;
+        border-radius: 16px;
+        padding: 24px 20px 20px;
+        max-width: 420px;
+        width: 100%;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+        text-align: center;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0 0 10px;
+      }
+      p {
+        font-size: 14px;
+        color: #9ca3af;
+        margin: 0 0 4px;
+      }
+      .emoji {
+        font-size: 32px;
+        margin-bottom: 8px;
+      }
+      .small {
+        font-size: 11px;
+        color: #6b7280;
+        margin-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="emoji">✅</div>
+      <h1>¡Email verificado!</h1>
+      <p>Tu dirección de correo se ha verificado correctamente.</p>
+      <p>Ahora puedes volver a la app e iniciar sesión con tu cuenta.</p>
+      <div class="small">Puedes cerrar esta ventana con seguridad.</div>
+    </div>
+  </body>
 </html>
